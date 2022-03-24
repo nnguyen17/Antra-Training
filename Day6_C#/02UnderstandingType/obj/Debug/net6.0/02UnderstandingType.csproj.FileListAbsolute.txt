@@ -1,0 +1,15 @@
+D:\Antra\Antra-Training\Day 1\02UnderstandingType\bin\Debug\net6.0\02UnderstandingType.exe
+D:\Antra\Antra-Training\Day 1\02UnderstandingType\bin\Debug\net6.0\02UnderstandingType.deps.json
+D:\Antra\Antra-Training\Day 1\02UnderstandingType\bin\Debug\net6.0\02UnderstandingType.runtimeconfig.json
+D:\Antra\Antra-Training\Day 1\02UnderstandingType\bin\Debug\net6.0\02UnderstandingType.dll
+D:\Antra\Antra-Training\Day 1\02UnderstandingType\bin\Debug\net6.0\02UnderstandingType.pdb
+D:\Antra\Antra-Training\Day 1\02UnderstandingType\obj\Debug\net6.0\02UnderstandingType.csproj.AssemblyReference.cache
+D:\Antra\Antra-Training\Day 1\02UnderstandingType\obj\Debug\net6.0\02UnderstandingType.GeneratedMSBuildEditorConfig.editorconfig
+D:\Antra\Antra-Training\Day 1\02UnderstandingType\obj\Debug\net6.0\02UnderstandingType.AssemblyInfoInputs.cache
+D:\Antra\Antra-Training\Day 1\02UnderstandingType\obj\Debug\net6.0\02UnderstandingType.AssemblyInfo.cs
+D:\Antra\Antra-Training\Day 1\02UnderstandingType\obj\Debug\net6.0\02UnderstandingType.csproj.CoreCompileInputs.cache
+D:\Antra\Antra-Training\Day 1\02UnderstandingType\obj\Debug\net6.0\02UnderstandingType.dll
+D:\Antra\Antra-Training\Day 1\02UnderstandingType\obj\Debug\net6.0\refint\02UnderstandingType.dll
+D:\Antra\Antra-Training\Day 1\02UnderstandingType\obj\Debug\net6.0\02UnderstandingType.pdb
+D:\Antra\Antra-Training\Day 1\02UnderstandingType\obj\Debug\net6.0\02UnderstandingType.genruntimeconfig.cache
+D:\Antra\Antra-Training\Day 1\02UnderstandingType\obj\Debug\net6.0\ref\02UnderstandingType.dll

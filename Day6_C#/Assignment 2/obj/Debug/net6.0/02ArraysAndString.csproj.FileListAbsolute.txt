@@ -1,0 +1,15 @@
+D:\Antra\Antra-Training\Day 1\Assignment 2\bin\Debug\net6.0\02ArraysAndString.exe
+D:\Antra\Antra-Training\Day 1\Assignment 2\bin\Debug\net6.0\02ArraysAndString.deps.json
+D:\Antra\Antra-Training\Day 1\Assignment 2\bin\Debug\net6.0\02ArraysAndString.runtimeconfig.json
+D:\Antra\Antra-Training\Day 1\Assignment 2\bin\Debug\net6.0\02ArraysAndString.dll
+D:\Antra\Antra-Training\Day 1\Assignment 2\bin\Debug\net6.0\02ArraysAndString.pdb
+D:\Antra\Antra-Training\Day 1\Assignment 2\obj\Debug\net6.0\02ArraysAndString.csproj.AssemblyReference.cache
+D:\Antra\Antra-Training\Day 1\Assignment 2\obj\Debug\net6.0\02ArraysAndString.GeneratedMSBuildEditorConfig.editorconfig
+D:\Antra\Antra-Training\Day 1\Assignment 2\obj\Debug\net6.0\02ArraysAndString.AssemblyInfoInputs.cache
+D:\Antra\Antra-Training\Day 1\Assignment 2\obj\Debug\net6.0\02ArraysAndString.AssemblyInfo.cs
+D:\Antra\Antra-Training\Day 1\Assignment 2\obj\Debug\net6.0\02ArraysAndString.csproj.CoreCompileInputs.cache
+D:\Antra\Antra-Training\Day 1\Assignment 2\obj\Debug\net6.0\02ArraysAndString.dll
+D:\Antra\Antra-Training\Day 1\Assignment 2\obj\Debug\net6.0\refint\02ArraysAndString.dll
+D:\Antra\Antra-Training\Day 1\Assignment 2\obj\Debug\net6.0\02ArraysAndString.pdb
+D:\Antra\Antra-Training\Day 1\Assignment 2\obj\Debug\net6.0\02ArraysAndString.genruntimeconfig.cache
+D:\Antra\Antra-Training\Day 1\Assignment 2\obj\Debug\net6.0\ref\02ArraysAndString.dll
