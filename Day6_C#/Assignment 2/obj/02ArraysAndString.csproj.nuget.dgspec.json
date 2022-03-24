@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Antra\\Antra-Training\\Day 1\\Assignment 2\\02ArraysAndString.csproj": {}
+    "D:\\Antra\\Antra-Training\\Day6_C#\\Assignment 2\\02ArraysAndString.csproj": {}
   },
   "projects": {
-    "D:\\Antra\\Antra-Training\\Day 1\\Assignment 2\\02ArraysAndString.csproj": {
+    "D:\\Antra\\Antra-Training\\Day6_C#\\Assignment 2\\02ArraysAndString.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Antra\\Antra-Training\\Day 1\\Assignment 2\\02ArraysAndString.csproj",
+        "projectUniqueName": "D:\\Antra\\Antra-Training\\Day6_C#\\Assignment 2\\02ArraysAndString.csproj",
         "projectName": "02ArraysAndString",
-        "projectPath": "D:\\Antra\\Antra-Training\\Day 1\\Assignment 2\\02ArraysAndString.csproj",
+        "projectPath": "D:\\Antra\\Antra-Training\\Day6_C#\\Assignment 2\\02ArraysAndString.csproj",
         "packagesPath": "C:\\Users\\Blazacky\\.nuget\\packages\\",
-        "outputPath": "D:\\Antra\\Antra-Training\\Day 1\\Assignment 2\\obj\\",
+        "outputPath": "D:\\Antra\\Antra-Training\\Day6_C#\\Assignment 2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Visual Studio\\Shared\\NuGetPackages"

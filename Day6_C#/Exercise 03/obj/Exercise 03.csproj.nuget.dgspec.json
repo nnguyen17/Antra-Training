@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Antra\\Antra-Training\\Day 1\\Exercise 03\\Exercise 03.csproj": {}
+    "D:\\Antra\\Antra-Training\\Day6_C#\\Exercise 03\\Exercise 03.csproj": {}
   },
   "projects": {
-    "D:\\Antra\\Antra-Training\\Day 1\\Exercise 03\\Exercise 03.csproj": {
+    "D:\\Antra\\Antra-Training\\Day6_C#\\Exercise 03\\Exercise 03.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Antra\\Antra-Training\\Day 1\\Exercise 03\\Exercise 03.csproj",
+        "projectUniqueName": "D:\\Antra\\Antra-Training\\Day6_C#\\Exercise 03\\Exercise 03.csproj",
         "projectName": "Exercise 03",
-        "projectPath": "D:\\Antra\\Antra-Training\\Day 1\\Exercise 03\\Exercise 03.csproj",
+        "projectPath": "D:\\Antra\\Antra-Training\\Day6_C#\\Exercise 03\\Exercise 03.csproj",
         "packagesPath": "C:\\Users\\Blazacky\\.nuget\\packages\\",
-        "outputPath": "D:\\Antra\\Antra-Training\\Day 1\\Exercise 03\\obj\\",
+        "outputPath": "D:\\Antra\\Antra-Training\\Day6_C#\\Exercise 03\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Visual Studio\\Shared\\NuGetPackages"
