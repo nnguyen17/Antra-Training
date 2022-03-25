@@ -1,0 +1,15 @@
+D:\Antra\Antra-Training\Day7_C#\Assignment3\DesignAndBuildClassesUsingOOP\obj\Debug\net6.0\DesignAndBuildClassesUsingOOP.csproj.AssemblyReference.cache
+D:\Antra\Antra-Training\Day7_C#\Assignment3\DesignAndBuildClassesUsingOOP\obj\Debug\net6.0\DesignAndBuildClassesUsingOOP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Antra\Antra-Training\Day7_C#\Assignment3\DesignAndBuildClassesUsingOOP\obj\Debug\net6.0\DesignAndBuildClassesUsingOOP.AssemblyInfoInputs.cache
+D:\Antra\Antra-Training\Day7_C#\Assignment3\DesignAndBuildClassesUsingOOP\obj\Debug\net6.0\DesignAndBuildClassesUsingOOP.AssemblyInfo.cs
+D:\Antra\Antra-Training\Day7_C#\Assignment3\DesignAndBuildClassesUsingOOP\obj\Debug\net6.0\DesignAndBuildClassesUsingOOP.csproj.CoreCompileInputs.cache
+D:\Antra\Antra-Training\Day7_C#\Assignment3\DesignAndBuildClassesUsingOOP\bin\Debug\net6.0\DesignAndBuildClassesUsingOOP.exe
+D:\Antra\Antra-Training\Day7_C#\Assignment3\DesignAndBuildClassesUsingOOP\bin\Debug\net6.0\DesignAndBuildClassesUsingOOP.deps.json
+D:\Antra\Antra-Training\Day7_C#\Assignment3\DesignAndBuildClassesUsingOOP\bin\Debug\net6.0\DesignAndBuildClassesUsingOOP.runtimeconfig.json
+D:\Antra\Antra-Training\Day7_C#\Assignment3\DesignAndBuildClassesUsingOOP\bin\Debug\net6.0\DesignAndBuildClassesUsingOOP.dll
+D:\Antra\Antra-Training\Day7_C#\Assignment3\DesignAndBuildClassesUsingOOP\bin\Debug\net6.0\DesignAndBuildClassesUsingOOP.pdb
+D:\Antra\Antra-Training\Day7_C#\Assignment3\DesignAndBuildClassesUsingOOP\obj\Debug\net6.0\DesignAndBuildClassesUsingOOP.dll
+D:\Antra\Antra-Training\Day7_C#\Assignment3\DesignAndBuildClassesUsingOOP\obj\Debug\net6.0\refint\DesignAndBuildClassesUsingOOP.dll
+D:\Antra\Antra-Training\Day7_C#\Assignment3\DesignAndBuildClassesUsingOOP\obj\Debug\net6.0\DesignAndBuildClassesUsingOOP.pdb
+D:\Antra\Antra-Training\Day7_C#\Assignment3\DesignAndBuildClassesUsingOOP\obj\Debug\net6.0\DesignAndBuildClassesUsingOOP.genruntimeconfig.cache
+D:\Antra\Antra-Training\Day7_C#\Assignment3\DesignAndBuildClassesUsingOOP\obj\Debug\net6.0\ref\DesignAndBuildClassesUsingOOP.dll
