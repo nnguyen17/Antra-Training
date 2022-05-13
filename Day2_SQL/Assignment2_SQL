@@ -1,0 +1,111 @@
+Conceptual Questions:
+Difference between WHERE and HAVING?
+Ans: The HAVING clause is used after the GROUP BY clause. The WHERE clause, in contrast, is used to qualify the rows that are returned before the data is aggregated or grouped. 
+HAVING qualifies the aggregated data after the data has been grouped or aggregated.
+
+Difference between RANK() and DenseRank()
+Ans: In cases where there is a “tie", RANK() will assign non-consecutive “ranks” to the values in the set (resulting in gaps between the integer ranking values when there is a tie), 
+whereas DENSE_RANK() will assign consecutive ranks to the values in the set (so there will be no gaps between the integer ranking values in the case of a tie).
+
+What is correlated subquery?
+Ans: It is a subquery (a query nested inside another query) that uses values from the outer query
+
+Criteria of Union and Union all?
+Ans: Union concatenates the results of two queries into a single result set. There is a performance hit when using Union vs Union All, since the database server must do additional work to remove the duplicate rows, 
+but usually you do not want the duplicates especially in reports. The condition of using Unions are that the number of columns and data type of each column from both result set should match in the order they are given.
+Union & Union All are called set operators. There are two other types of SET Operators known as Intersect and Except. As the name suggests, they only return intersecting values and values that do not match respectively.
+
+Difference between UNION and UNION ALL
+Ans: Union excludes duplicates while Union All includes duplicates
+
+Difference between Union and JOIN
+Ans: Union combines result sets while Join only takes matched data
+
+/* 1. Write a query that lists the country and province names from person. CountryRegion and person. StateProvince tables. Join them and produce a result set similar to the following.
+       Country                        Province
+	   -------                        -------- */
+Select c.Name [Country], s.Name [Province]
+From Person.CountryRegion c Join Person.StateProvince s
+On c.CountryRegionCode = s.CountryRegionCode
+
+/* 2. Write a query that lists the country and province names from person. CountryRegion and person. StateProvince tables and list the countries filter them by Germany and Canada. Join them and produce a result set similar to the following.
+       Country                        Province
+	   -------                        -------- */
+Select c.Name [Country], s.Name [Province]
+From Person.CountryRegion c Join Person.StateProvince s
+On c.CountryRegionCode = s.CountryRegionCode
+Where c.Name In ('Germany', 'Canada')
+
+--3. List all Products that has been sold at least once in last 25 years.
+Select p.ProductName, o.OrderDate
+From Products p Join [Order Details] od
+On p.ProductID = od.ProductID Join Orders o
+On od.OrderID = o.OrderID
+Where o.OrderDate Between '1997-03-17' And '2022-03-17'
+
+--4. List top 5 locations (Zip Code) where the products sold most in last 25 years.
+Select Top 5 o.ShipPostalCode ,Count(o.ShipPostalCode) [Count]
+From Orders o
+Where o.OrderDate Between '1997-03-17' And '2022-03-17'
+Group By o.ShipPostalCode
+Order By [Count] Desc
+
+--5. List all city names and number of customers in that city.   
+Select c.City, Count(*)
+From Customers c
+Group By c.City
+
+--6. List city names which have more than 2 customers, and number of customers in that city
+Select c.City, Count(*)
+From Customers c
+Group By c.City
+Having Count(*) > 2
+
+--7. Display the names of all customers along with the  count of products they bought
+Select c.ContactName, Count(*) [Count]
+From Customers c Join Orders o
+On c.CustomerID = o.CustomerID
+Group By c.ContactName
+
+--8. Display the customer ids who bought more than 100 Products with count of products.
+Select c.CustomerID, Count(*) [Count]
+From Customers c Join Orders o
+On c.CustomerID = o.CustomerID
+Group By c.CustomerID
+Having Count(*) > 100
+
+/* 9. List all of the possible ways that suppliers can ship their products. Display the results as below
+    Supplier Company Name                Shipping Company Name
+    ---------------------                --------------------- */
+Select su.CompanyName [Supplier Company Name], sh.CompanyName [Shipping Company Name]
+From Suppliers su Cross Join Shippers sh
+
+--10. Display the products order each day. Show Order date and Product Name.
+Select Distinct o.OrderDate, p.ProductName
+From Orders o Join [Order Details] od
+On o.OrderID = od.OrderID Join Products p
+On od.ProductID = p.ProductID
+Order By o.OrderDate
+
+--11. Displays pairs of employees who have the same job title.
+Select Distinct e1.FirstName + ' ' + e1.LastName [1st Employee Name], e1.Title, e2.FirstName + ' ' + e2.LastName [2nd Employee Name], e2.Title
+From Employees e1 Join Employees e2
+On e1.Title = e2.Title
+Where e1.EmployeeID <> e2.EmployeeID
+
+--12. Display all the Managers who have more than 2 employees reporting to them.
+Select Distinct e2.FirstName + ' ' + e2.LastName [2nd Employee Name], Count(*) [NumReportsTo]
+From Employees e1 Join Employees e2
+On e1.ReportsTo = e2.EmployeeID
+Group By e2.FirstName + ' ' + e2.LastName
+
+/* 13. Display the customers and suppliers by city. The results should have the following columns
+       City
+	   Name
+	   Contact Name,
+	   Type (Customer or Supplier) */
+Select c.City, c.ContactName, IsNull(c.CompanyName, 'N/A') [Company Name], 'Customer' [Type] 
+From Customers c 
+Union 
+Select s.City, IsNull(s.ContactName, 'N/A'), s.CompanyName [Company Name], 'Supplier' [Type]
+From Suppliers s
